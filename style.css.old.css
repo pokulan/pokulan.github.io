@@ -1,0 +1,206 @@
+@font-face {
+	font-family: myFirstFont;
+  	src: local("Helvetica Neue Bold"),
+	local("HelveticaNeue-Bold"),
+       	url(yoster.ttf);
+}
+
+body{
+	font-family: myFirstFont;
+
+}
+
+
+#L{
+	position: absolute;
+	
+}
+
+.in{
+	background-color: rgba(124, 123, 130, 0.6);
+	text-align: center;
+	font-size: 3vw;
+
+}
+
+.heh{
+	text-align: center;
+ 	margin-top: 10px;
+  	margin-bottom: 10px;
+  	position: relative;
+  	width: auto;
+
+   	color: rgb(255, 255, 255);
+   	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+}
+
+.text { 
+   	position: absolute; 
+   	text-align: center;
+   	top: 75%; 
+   	width: auto; 
+   	padding-left:5%;
+	color: rgb(255, 255, 255);
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+	visibility:hidden;
+}
+
+#logo{
+	width: 270px;
+	height: auto;
+  	text-align: center;
+  	margin-top: 10px;
+	background-color: #97ff8e;
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+}
+#gifStyle{
+	width: 110;
+	height: auto;
+}
+#gp{
+	width: 220px;
+  	height: auto;
+  	text-align: center;
+  	margin-top: 10px;
+  	margin-bottom: 10px;
+  	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+	transition: all .2s ease-in-out;
+	border-radius: 18px;
+}
+#ais{
+	width: 40vw;
+  	height: auto;
+  	text-align: center;
+  	margin-top: 10px;
+  	margin-bottom: 10px;
+  	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+	transition: all .2s ease-in-out;
+	border-radius: 25px;
+}
+#ffb{
+	width: 130px;
+  	height: auto;
+  	text-align: center;
+ 	margin-top: 10px;
+  	margin-bottom: 10px;
+  	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+	transition: all .2s ease-in-out;
+	border-radius: 75px;
+}
+.heh:hover .text{ 
+	visibility:visible;
+}
+.heh:hover .text{
+	visibility:visible;
+}
+.heh:hover .text{
+	visibility:visible;
+}
+#ffb:hover {
+	transform: scale(1.1);
+	border-radius: 0px;
+}
+#ais:hover {
+	transform: scale(1.1);
+	border-radius: 0px;
+}
+#gp:hover {
+	transform: scale(1.1);
+	border-radius: 0px;
+}
+
+
+#box{
+  	font-size: 72px;
+  	font-family: myFirstFont;
+  	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+
+  	margin-top: 10px;
+  	padding: 0px;
+  	width: 100%;
+  	height: 100%
+  	text-align: center;
+}
+
+#box1{
+  	font-size: 7vw;
+  	text-align: center;
+   	background-color: #baffc4;
+   	margin-left: 5px;
+  	margin-right: 5px;
+  	color: #f3fff1;
+  	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+	text-align: center;
+}
+#box2{
+	font-size: 32px;
+	margin-top: 10px;
+	background-color: #6cc95f;
+	color: #e1f8dd;
+	padding-left: 5px;
+	height: auto;
+	margin-left: 5px;
+   	margin-right: 5px;
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+	text-align: center;
+}
+#box3{
+	font-size: 32px;
+	margin-top: 10px;
+	background-color: #befbb6;
+	color: #43c132;
+	padding-left: 5px;
+	height: auto;
+	margin-left: 5px;
+   	margin-right: 5px;
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+	text-align: center;
+	text-align: center;
+}
+
+#stopka{
+	font-size: 18px;
+	margin-top: 10px;
+	background-color: #befbb6;
+	color: #43c132;
+	padding-left: 5px;
+	height: auto;
+	margin-left: 5px;
+   	margin-right: 5px;
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+	text-align: center;
+	text-align: center;
+}
+ 
+.row-centered {
+    	text-align:center;
+}
+.col-centered {
+   	display:inline-block;
+    	float:none;
+    	text-align:left;
+    	margin-right:-4px;
+}
+
